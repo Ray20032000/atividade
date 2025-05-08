@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.vermelho, .azul {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.vermelho {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.azul {
+    background-color: blue;
+    bottom: 0;
+    right: 0;
+}
+
+
+
